@@ -2,4 +2,4 @@
 
 httpd
 php-fpm
-ping localhost
+/bin/bash
