@@ -1,0 +1,7 @@
+version: '3'
+services:
+  webserver:
+    image: nihals/mynginx:v1
+    restart: always
+    volumes:
+      - /new-project/:/usr/share/nginx/html
