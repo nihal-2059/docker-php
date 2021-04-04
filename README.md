@@ -13,8 +13,8 @@ Script file depends on personal choice, you can create one or you can opt out of
 
 nginx.conf file for Nginx:
 You can make use of default file for NGINX or you can copy the one i created.
-It doesn't have the server configurations yet, but once the NGINX is up you can add those information depending on the IP's of your webserver.
-Location for the file is : <b> /etc/nginx/ </b>
+It doesn't have the load balancer configurations yet, but once the NGINX is up you can add those information depending on the IP's of your webserver.
+Location for the file is : <b> /etc/nginx/ </b></br>
 Syntax : Add the following 
 <pre><b>
 http {
@@ -91,3 +91,5 @@ Some useful commands,
 <pre><b>docker inspect container-name</b></pre>
 2) to reload the NGINX server without stopping them,</br>
 <pre><b>docker exec -it <container-name> nginx -s reload</b></pre>
+
+Thanks! Do let me know what changes i can do to make it better!
